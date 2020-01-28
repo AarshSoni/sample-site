@@ -1,0 +1,16 @@
+#Os generated files
+.DS_Store
+.Ds_Store?
+._*
+.Spotlight-V100
+.Trashes
+ethumbs.db
+Thumbs.db
+
+#Debug files
+
+*.log
+*.sql
+
+#Wordpress foles and files
+/uploads/
