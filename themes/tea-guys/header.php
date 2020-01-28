@@ -48,11 +48,13 @@
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'tea-guys' ); ?></button>
 			<?php
 			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
+				'theme_location' => 'menu',
 				'menu_id'        => 'primary-menu',
 			) );
 			?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
+
+<h1>fix header</h1>
 
 	<div id="content" class="site-content">
